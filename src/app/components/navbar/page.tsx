@@ -6,8 +6,9 @@ export default function Navbar() {
   const [barClick,setbarClick] = useState<boolean>(false);
   return (
     <header>
-      <nav className="2xl:h-20 xl:h-20 lg:h-16 sm:h-20 bg-[#FDC435] flex items-center justify-between sticky top-0 z-50">
-      <div className="flex items-center ml-2 lg:h-16 lg:w-16">
+      <nav className="2xl:h-20 xl:h-20 lg:h-16 sm:h-20 lap:h-16 bg-[#FDC435] 
+      flex items-center justify-between sticky top-0 z-50 lmd:h-14">
+      <div className="flex items-center ml-2 lg:h-16 lg:w-16 lap:h-14 lap:w-14 lmd:h-12 lmd:w-12">
         <Image
           src="/images/logo.jpg"
           alt="Logo"
@@ -15,7 +16,8 @@ export default function Navbar() {
           height={80}
         />
       </div>
-      <ul className="2xl:flex xl:flex lg:hidden md:hidden sm:hidden mr-36 gap-20 text-base xl:text-2xl">
+      <ul className="2xl:flex xl:flex lg:hidden md:hidden sm:hidden mr-36 gap-20 text-base xl:text-2xl 
+      lap:hidden lmd:hidden">
         <li><Link href="#home" className="hover:text-blue-700 font-roboto font-medium">Home</Link></li>
         <li><Link href="#about-me" className="hover:text-blue-700 font-roboto font-medium">About Me</Link></li>
         <li><Link href="#my-skills" className="hover:text-blue-700 font-roboto font-medium">My Skills</Link></li>
@@ -23,13 +25,14 @@ export default function Navbar() {
         <li><Link href="https://www.linkedin.com/in/abdullah-shaikh-29699b302/"  target="_blank" className="hover:text-blue-700 font-roboto font-medium">My LinkedIn</Link></li>
         <li><Link href="#contact-me" className="hover:text-blue-700 font-roboto font-medium">Contact Me</Link></li>
       </ul>
-      <div className="mr-6 2xl:hidden xl:hidden">
+      <div className="2xl:hidden xl:hidden mr-10">
       <button onClick={()=>setbarClick(!barClick)}>
       <i className="fa-solid fa-bars text-3xl"></i>
       </button>
       </div>
     </nav>
-    <div className={`${barClick===true?"bg-[#FDC435] text-2xl flex flex-col  mr-32 w-[100vw] items-center h-[250px]":"hidden"}`}>
+    <div onMouseLeave={()=>{setbarClick(!barClick)}}
+    className={`${barClick===true?"bg-[#FDC435] text-2xl flex flex-col  mr-32 w-[100vw] items-center h-[250px]":"hidden"}`}>
     <ul className="flex flex-col gap-2">
       <li><Link href="#home" className="hover:text-blue-700 font-roboto font-medium">Home</Link></li>
       <li><Link href="#about-me" className="hover:text-blue-700 font-roboto font-medium">About Me</Link></li>
