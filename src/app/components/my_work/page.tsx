@@ -7,7 +7,7 @@ export default function MyWork(){
     const [work3,setWork3] = useState(false);
     const [work4,setWork4] = useState(false);
    return( <div className="flex flex-col items-center 2xl:mt-32 xl:mt-20 lg:mt-20 sm:mt-24 
-   lap:mt-14  lmd:mt-10" id="my-work">
+   lap:mt-14  lmd:mt-10 pt-16" id="my-work">
         <h1 className="font-roboto text-7xl font-extrabold lap:text-6xl  lmd:text-6xl">My Work</h1>
         <div className="xl:mt-6">
             <div className="flex 2xl:flex-row gap-16 mt-8 sm:flex-col lap:flex-col lmd:flex-col lmd:items-center">
@@ -20,7 +20,8 @@ export default function MyWork(){
                     <h3 className="font-roboto text-center text-white text-[27px] mt-3">
                         CSS Linear Gradient Generator
                     </h3>
-                    <p className="font-roboto text-white ml-5 mr-5 leading-relaxed">
+                    <p className="font-roboto text-white ml-5 mr-5 leading-relaxed sm:hidden lap:hidden
+                    lmd:hidden">
                         This is my CSS linear Gradient Generator website link
                         which changes gradient
                         by one click also change of one side and enables to select 
@@ -39,7 +40,8 @@ export default function MyWork(){
                     <h3 className="font-roboto text-center text-white text-[27px] mt-3">
                         A school Website
                     </h3>
-                    <p className="font-roboto text-white ml-5 mr-5 leading-relaxed">
+                    <p className="font-roboto text-white ml-5 mr-5 leading-relaxed sm:hidden lap:hidden
+                    lmd:hidden">
                         This is my complete front-end school Website link which 
                         visualize the needs of
                         a school website by including sections like Home, About Us,
@@ -61,7 +63,8 @@ export default function MyWork(){
                     <h3 className="font-roboto text-center text-white text-[27px] mt-3">
                         NPM Projects
                     </h3>
-                    <p className="font-roboto text-white ml-5 mr-5 leading-relaxed mt-2">
+                    <p className="font-roboto text-white ml-5 mr-5 leading-relaxed mt-2 sm:hidden lap:hidden
+                    lmd:hidden">
                         By Clicking this you will be see my NPM Projects Repo
                         Where are my 7 cmd packages which shows my logics and expertise
                         in Node.js based cmd projects and also you can use them.
@@ -79,7 +82,8 @@ export default function MyWork(){
                     <h3 className="font-roboto text-center text-white text-[27px] mt-3">
                         Todo Web App
                     </h3>
-                    <p className="font-roboto text-white ml-5 mr-5 leading-relaxed">
+                    <p className="font-roboto text-white ml-5 mr-5 leading-relaxed sm:hidden lap:hidden
+                    lmd:hidden">
                     This is To-Do Web Link that app allows users to manage tasks efficiently with both 
                     Light and Dark themes. Built with Next.js and styled using Tailwind 
                     CSS, the app features dynamic theme switching, task addition, 

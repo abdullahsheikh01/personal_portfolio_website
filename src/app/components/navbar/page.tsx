@@ -32,8 +32,8 @@ export default function Navbar() {
       </div>
     </nav>
     <div onMouseLeave={()=>{setbarClick(!barClick)}}
-    className={`${barClick===true?"bg-[#FDC435] text-2xl flex flex-col  mr-32 w-[100vw] items-center h-[300px]\
-     pt-16 z-40 fixed":"hidden"}`}>
+    className={`${barClick===true?"bg-[#FDC435] text-2xl flex flex-col  mr-32 w-[100vw] items-center h-auto\
+     pt-20 z-40 fixed":"hidden"}`}>
     <ul className="flex flex-col gap-2">
       <li><Link href="#home" className="hover:text-blue-700 font-roboto font-medium">Home</Link></li>
       <li><Link href="#about-me" className="hover:text-blue-700 font-roboto font-medium">About Me</Link></li>
