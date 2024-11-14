@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <header>
       <nav className="2xl:h-20 xl:h-20 lg:h-16 sm:h-20 lap:h-16 bg-[#FDC435] 
-      flex items-center justify-between sticky top-0 z-50 lmd:h-14">
+      flex items-center justify-between top-0 z-50 lmd:h-14 w-screen fixed">
       <div className="flex items-center ml-2 lg:h-16 lg:w-16 lap:h-14 lap:w-14 lmd:h-12 lmd:w-12">
         <Image
           src="/images/logo.jpg"
@@ -32,7 +32,8 @@ export default function Navbar() {
       </div>
     </nav>
     <div onMouseLeave={()=>{setbarClick(!barClick)}}
-    className={`${barClick===true?"bg-[#FDC435] text-2xl flex flex-col  mr-32 w-[100vw] items-center h-[250px]":"hidden"}`}>
+    className={`${barClick===true?"bg-[#FDC435] text-2xl flex flex-col  mr-32 w-[100vw] items-center h-[300px]\
+     pt-16 z-40 fixed":"hidden"}`}>
     <ul className="flex flex-col gap-2">
       <li><Link href="#home" className="hover:text-blue-700 font-roboto font-medium">Home</Link></li>
       <li><Link href="#about-me" className="hover:text-blue-700 font-roboto font-medium">About Me</Link></li>

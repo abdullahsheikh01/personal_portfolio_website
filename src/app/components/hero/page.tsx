@@ -5,7 +5,7 @@ export default function Hero(){
         <div className="2xl:mb-32 2xl:overflow-y-hidden overflow-x-hidden xl:grid 2xl:grid lg:flex
          lg:flex-col-reverse lg:justify-center lg:items-center xl:grid-cols-2 2xl:grid-cols-2 sm:flex
           sm:flex-col-reverse sm:justify-center sm:items-center md:flex md:flex-col-reverse md:justify-center
-           md:items-center lap:flex lap:flex-col-reverse lmd:flex lmd:flex-col-reverse">
+           md:items-center lap:flex lap:flex-col-reverse lmd:flex lmd:flex-col-reverse pt-16">
             <div className="xl:w-[892px] lg:w-[892px] 2xl:w-[892px] h-auto ml-2 flex flex-col items-center
              xl:mt-24 2xl:xl:mt-24 lg:xl:mt-24 md:mt-8 lg:mt-0 lap:text-center lmd:text-center">
                 <div>
@@ -16,7 +16,7 @@ export default function Hero(){
                     Abdullah Shaikh</Link></span>,</h1>
 
                     <h1 className="2xl:hidden xl:hidden lg:hidden md:hidden sm:hidden lap:hidden
-                    lmd:text-5xl font-roboto font-extrabold lmd:leading-snug">Welcome I am <br /><span className="text-[#2858D1]">
+                    lmd:text-[45px] font-roboto font-extrabold lmd:leading-snug">Welcome I am <br /><span className="text-[#2858D1]">
                     <Link href="https://www.linkedin.com/in/abdullah-shaikh-29699b302/" target="_blank">
                     Abdullah Shaikh</Link></span>,</h1>
                 <p className="text-4xl text-center mt-4 font-roboto tracking-wide leading-relaxed lg:mt-0 

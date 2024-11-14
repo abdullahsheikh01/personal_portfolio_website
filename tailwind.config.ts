@@ -41,8 +41,7 @@ export default {
       screens:{
         sm:{min:'600px',max:'767px'},
         lap:{min:'414px',max:'599px'},//Large Android Phones 
-        lmd:{min:'375px',max:'413px'},//Large and medium Mobile Devices
-        smod:{min:'320px',max:'374px'}//Mobile Devices
+        lmd:{min:'360px',max:'413px'},//Large and medium Mobile Devices
       }
     },
   },
