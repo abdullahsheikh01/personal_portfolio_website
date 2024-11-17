@@ -1,9 +1,9 @@
 import Image from "next/image";
 export default function mySkills(){
    return(
-    <div id="my-skills" className="2xl:mt-11 xl:mt-12 sm:mt-10 lg:mt-14 lap:mt-6 lmd:mt-6 pt-16">
+    <div id="my-skills" className="pt-24 xl:mt-12 sm:mt-10 lg:mt-14 lap:mt-6 lmd:mt-6">
     <h1 className="text-[71px] font-roboto font-extrabold text-center lap:text-6xl lmd:text-6xl">My Skills</h1>
-    <div className="sm:ml-10 2xl:animate-slide xl:animate-slide sm:animate-none mt-9 flex gap-32 sm:gap-16 
+    <div className="sm:ml-10 2xl:animate-none  mt-9 flex gap-32 sm:gap-16 
     overflow-x-hidden w-auto overflow-y-hidden 2xl:gap-28 lg:justify-center lg:gap-28 lg:ml-8 lg:mr-8
     sm:mr-7 lap:mt-8 lap:gap-6 lap:justify-center lmd:mt-8 lmd:gap-6 lmd:justify-center">
     <div>

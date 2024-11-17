@@ -6,8 +6,7 @@ export default function MyWork(){
     const [work2,setWork2] = useState(false);
     const [work3,setWork3] = useState(false);
     const [work4,setWork4] = useState(false);
-   return( <div className="flex flex-col items-center 2xl:mt-32 xl:mt-20 lg:mt-20 sm:mt-24 
-   lap:mt-14  lmd:mt-10 pt-16" id="my-work">
+   return( <div className="flex flex-col items-center pt-24" id="my-work">
         <h1 className="font-roboto text-7xl font-extrabold lap:text-6xl  lmd:text-6xl">My Work</h1>
         <div className="xl:mt-6">
             <div className="flex 2xl:flex-row gap-16 mt-8 sm:flex-col lap:flex-col lmd:flex-col lmd:items-center">

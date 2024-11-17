@@ -27,7 +27,7 @@ export default function Hero(){
                 sm:hidden lap:hidden">
                     Hire me your go-to Web Developer <br />for clean, responsive, and <br />user-focused websites.</p>
                 <center>
-                <Link href="#contact-me">
+                <Link href="/components/contact_me">
                 <button className="bg-[#B4FFAD] mt-16 w-[584px] h-24 rounded-3xl text-3xl ml-6 
                 font-roboto hover:scale-125 sm:hover:scale-75 md:hover:scale-75 lap:hover:scale-75
                 lmd:hover:scale-75 transition-all duration-500 lg:mt-8 sm:mt-12

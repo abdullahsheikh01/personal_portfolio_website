@@ -7,14 +7,8 @@ import Contact_Me from "./components/contact_me/page";
 import Footer from "./components/footer/page";
 export default function Home(){
   return(
-    <div className="2xl:w-full md:w-screen xl:w-screen overflow-x-hidden" id="home">
-      <Navbar/>
+    <div className="2xl:w-full md:w-screen xl:w-screen overflow-x-hidden">
       <Hero/>
-      <About_Me/>
-      <My_Skills/>
-      <MyWork/>
-      <Contact_Me/>
-      <Footer/>
     </div>
   )
 }
