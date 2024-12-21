@@ -11,7 +11,7 @@ export default function Footer(){
       </div>
       <div>
       <center>
-      <Link href="">
+      <Link href="https://www.linkedin.com/in/abdullah-shaikh-29699b302/" target="_blank">
       <i className="fa-brands fa-linkedin fa-beat text-[#0a66c2] text-[150px] 
       sm:text-[100px] lap:text-[70px] lmd:text-[70px]"></i>
       </Link>

@@ -1,6 +1,6 @@
 export default function About_Me(){
     return(
-        <div className="pt-24" id="about-me">
+        <div className="pt-24 h-screen" id="about-me">
             <div>
             <h1 className="text-[71px] font-roboto  font-extrabold text-center lap:text-6xl  lmd:text-6xl">About Me</h1>
             <p className="2xl:text-3xl text-3xl 2xl:text-center mt-4 font-roboto tracking-wide
