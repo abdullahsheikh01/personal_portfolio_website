@@ -19,7 +19,7 @@ export default function Footer(){
       </div>
       <div>
         <p className="text-white text-xl 2xl:text-xl xl:text-3xl text-[20px]"><Link href="">abdullahkamran6601@gmail.com</Link></p>
-        <p className="text-white text-xl 2xl:text-xl xl:text-3xl text-[20px]">03452931370</p>
+        <p className="text-white text-xl 2xl:text-xl xl:text-3xl text-[20px]">+923293932313</p>
       </div>
       </div>
     </footer>
