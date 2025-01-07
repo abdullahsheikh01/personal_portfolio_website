@@ -31,7 +31,7 @@ export default function Hero(){
                 <button className="bg-[#B4FFAD] mt-16 w-[584px] h-24 rounded-3xl text-3xl ml-6 
                 font-roboto hover:scale-125 sm:hover:scale-75 md:hover:scale-75 lap:hover:scale-75
                 lmd:hover:scale-75 transition-all duration-500 lg:mt-8 sm:mt-12
-                lap:w-[384px] lap:mt-4 lap:mr-6 lmd:w-[334px] lmd:mt-10 lmd:mr-6 lmd:h-20">Contact Me
+                lap:w-[384px] lap:mt-4 lap:mr-6 lmd:w-[334px] lmd:mt-10 lmd:mr-6 lmd:h-20 dark:text-black">Contact Me
                 </button>
                 </Link>
                 </center>
