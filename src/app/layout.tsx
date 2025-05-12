@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Abdullah Shaikh|A Web Developer",
+  title: "Abdullah Shaikh | A Frontend Web Developer",
   description: "I am Abdullah Shaikh and It is my personal website. You can visit this website to know about me and my skills, projects, and to contact me.",
 };
 
