@@ -23,6 +23,16 @@ export default function mySkills(){
     src="/images/tslogo.png" height={150} width={150} alt="Type Script Logo"
     />
    </div>
+   <div>
+   <Image className="sm:w-[131px] sm:h-[110px] lap:w-[70px] lap:h-[70px] lmd:w-[70px] lmd:h-[70px]"
+    src="/images/tailwindcsslogo.png" height={150} width={150} alt="Talwind CSS Logo"
+    />
+   </div>
+      <div>
+   <Image className="sm:w-[131px] sm:h-[110px] lap:w-[70px] lap:h-[70px] lmd:w-[70px] lmd:h-[70px]"
+    src="/images/nextlogo.png" height={150} width={150} alt="Next.js Logo"
+    />
+   </div>
     </div>
     </div>
    )
